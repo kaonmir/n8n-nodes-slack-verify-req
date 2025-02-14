@@ -39,7 +39,7 @@
 			"dist/credentials/SlackVerifyReqCredentialsApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/slack-verify-req/SlackVerifyReq.node.js"
+			"dist/nodes/SlackVerifyReq/SlackVerifyReq.node.js"
 		]
 	},
 	"devDependencies": {
