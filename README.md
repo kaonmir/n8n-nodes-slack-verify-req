@@ -1,8 +1,8 @@
-# n8n-nodes-literalai
+# n8n-nodes-slack-verify-req
 
-This is an n8n community node. It lets you use Literal AI in your n8n workflows.
+This is an n8n community node. It lets you use Slack Verify Request in your n8n workflows.
 
-Literal AI is a platform that allows you to create and manage your own AI models.
+Slack Verify Request is a feature that allows you to verify the authenticity of requests from Slack.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
