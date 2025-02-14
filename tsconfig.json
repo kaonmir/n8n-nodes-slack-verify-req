@@ -3,14 +3,17 @@
 		"strict": true,
 		"module": "commonjs",
 		"moduleResolution": "node",
-		"target": "es2019",
-		"lib": ["es2019", "es2020", "es2022.error"],
+		"target": "es2021",
+		"lib": ["es2021", "es2022.error", "dom"],
+		// "target": "es2019",
+		// "lib": ["es2019", "es2020", "es2022.error"],
 		"removeComments": true,
-		"useUnknownInCatchVariables": false,
+		"useUnknownInCatchVariables": true,
 		"forceConsistentCasingInFileNames": true,
 		"noImplicitAny": true,
 		"noImplicitReturns": true,
 		"noUnusedLocals": true,
+		"noUnusedParameters": true,
 		"strictNullChecks": true,
 		"preserveConstEnums": true,
 		"esModuleInterop": true,
@@ -19,12 +22,28 @@
 		"declaration": true,
 		"sourceMap": true,
 		"skipLibCheck": true,
-		"outDir": "./dist/",
+		"outDir": "dist",
+		"allowJs": true,
+		"types": ["node"]
+	},
+	"tsc-alias": {
+		"replacers": {
+			"base-url": {
+				"enabled": false
+			}
+		}
+	},
+	"paths": {
+		"@utils/*": ["./utils/*"]
 	},
 	"include": [
 		"credentials/**/*",
 		"nodes/**/*",
+		"utils/**/*.ts",
 		"nodes/**/*.json",
+		"types/*.ts",
 		"package.json",
+		"bridge/**/*"
 	],
+	"exclude": ["node_modules/**/*", "dist/**/*"]
 }
