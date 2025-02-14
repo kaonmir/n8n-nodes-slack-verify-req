@@ -16,7 +16,7 @@
 		"url": "https://github.com/kaonmir/n8n-nodes-slack-verify-req.git"
 	},
 	"engines": {
-		"node": ">=18.10",
+		"node": ">=18.10 <21",
 		"pnpm": ">=9.1"
 	},
 	"packageManager": "pnpm@9.1.4",
