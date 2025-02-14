@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-slack-verify-req",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "n8n nodes for Slack Verify Request",
 	"keywords": [
 		"n8n-community-node-package"
