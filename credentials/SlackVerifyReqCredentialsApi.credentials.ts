@@ -1,6 +1,6 @@
 import { IAuthenticateGeneric, ICredentialType, INodeProperties } from 'n8n-workflow';
 
-export class SlackVerifyReqApi implements ICredentialType {
+export class SlackVerifyReqCredentialsApi implements ICredentialType {
 	name = 'slackVerifyReqCredentialsApi';
 	displayName = 'Slack Verify Request API';
 	properties: INodeProperties[] = [
